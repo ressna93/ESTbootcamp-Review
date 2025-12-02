@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //  //  //  //  //  //  //  //
+      // 타이핑 실습1 - var / let /const
+      //  //  //  //  //  //  //  //
+      var a = 10;
+      let b = 20;
+      const c = 30;
+
+      b = 25;
+      // c = 40; // 오류발생
+
+      console.log(a, b, c);
+
+      //  //  //  //  //  //  //  //
+      // 타이핑 실습2 - 스코프&TDZ
+      //  //  //  //  //  //  //  //
+      console.log(x); // underfined
+      var x = 5;
+
+      {
+        //console.Log(y); // TDZ 에리
+        let y = 10;
+      }
+      //  //  //  //  //  //  //  //
+      // 타이핑 실습3 - 논리 연산자
+      //  //  //  //  //  //  //  //
+      let isLogin = true;
+      let isAdmin = false;
+
+      //  //  //  //  //  //  //  //
+      // 타이핑 실습4 - String & Number
+      //  //  //  //  //  //  //  //
+      let name = "영종";
+      let age = 32;
+
+      console.log(`이름: ${name}, 나이: ${age}`);
+
+      //  //  //  //  //  //  //  //
+      // 타이핑 실습5 - undefined vs null
+      //  //  //  //  //  //  //  //
+
+      // let a;
+      // let b = null;
+
+      console.log(a, b);
+    </script>
+  </body>
+</html>
